@@ -1,0 +1,35 @@
+body{
+    padding-top: 50px;
+    border-radius: 9px;
+}
+
+.names{
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.profile-pick{
+    resize: both;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.conv-deleted{
+    text-decoration: line-through;
+}
+
+#feet{
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;   
+}
+table{
+    border: solid;
+    border-radius: 12px;
+}
+tr:hover{
+    background-color: rgb(183, 183, 183);
+}
